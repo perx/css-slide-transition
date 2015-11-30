@@ -74,7 +74,6 @@ function handlemove(e)
 function handlemousedown(e){
 			curdown=true;
 			mouseY=e.clientY;
-			alert('mouse');
 			};
 function handlemouseup(e){
 				curdown=false;
