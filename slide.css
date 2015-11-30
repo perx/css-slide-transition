@@ -28,7 +28,7 @@
 		.pageholder{position:relative;overflow:hidden;-webkit-user-select:none;cursor:pointer;}
 		.leftarr{transform:rotate(130deg);}
 		.rightarr{transform:rotate(-130deg);margin-left:6px;}
-		body,html,.pageholder,.page{margin:0;height:100%;width:100%;}
+		body,html, .pageholder , .page{height:100%;width:100%;}
 		.current{top:0;left:0;}
 		.page{position:absolute;visibility:hidden;backface-visibility:hidden;}
 		.current,.moving{visibility:visible;}
