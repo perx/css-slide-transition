@@ -100,3 +100,6 @@ function handlemouseup(e){
 window.addEventListener('mousedown',handlemousedown);
 window.addEventListener('mouseup',handlemouseup);
 window.addEventListener('mousemove',handlemove);
+window.addEventListener('touchstart',handlemousedown);
+window.addEventListener('touchmove',handlemouseup);
+window.addEventListener('touchend',handlemove);
