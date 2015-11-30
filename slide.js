@@ -1,4 +1,3 @@
-window.onload=function(){document.getElementsByClassName('pageholder')[0].style.height=''+window.innerHeight+'px';}
 var curdown=false;
 var mouseY,height;
 var dragging=false;
